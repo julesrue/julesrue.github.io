@@ -1,0 +1,48 @@
+.main{
+    background-color: black;
+    padding: 10px;
+}
+
+header{
+    font-size: 40px; 
+    text-align: center;
+    color: white;
+}
+
+#dogwar{
+    text-align: center;
+}
+
+#presentation{
+    font-size: 20px; 
+    text-align: center;
+    color: white;
+}
+
+.subtitleone{
+    background-color: black;
+    padding: 30px;
+}
+
+#subtitle{
+    font-size: 35px; 
+    text-align: center;
+    color: white;
+}
+
+.list{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 20%;
+}
+
+.warimage{
+    
+}
+
+.items{
+    font-style: italic;
+    color: white;
+}

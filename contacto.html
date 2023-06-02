@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <h1> <img id="chienaff" src="images/cheinaffecteux.jpg" alt="Logo de la página"> </h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="vivencias.html">Vivencias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="formulario">
+        <form>
+            <label for="nombreapellido">Nombre y apellido</label>
+            <input type="text" id="nombreapellido" class="input-father" required> 
+
+            <label for="mail">Correo Electrónico</label>
+            <input type="email" id="mail" class="input-father" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-father" required placeholder="(X)XXX-XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="input-father"></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radiomail"><input type="radio" name="contacto" value="email" id="radiomail">Email</label>
+                
+
+                <label for="radiotelefono"><input type="radio" name="contacto" value="telefono" id="radiotelefono">Teléfono</label>
+                
+
+                <label for="radiowhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radiowhatsapp" checked>WhatsApp</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En qué horario prefiere ser atendido?</legend>
+                <select>
+                    <option>En el alba</option>
+                    <option>Tarde</option>
+                    <option>Madrugada</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox" for="solicitud"><input type="checkbox" checked> ¿Le gustaría recibir novedades de la página</label>
+            <input class="enviar" type="submit" value="Enviar formulario"> 
+        </form>
+    </main>
+    <footer>
+        <img id="footerImage" src="images/footer.webp">
+        <p id="footerPhrase">Agradecimientos a todos los perros que murieron <br> para hacerlo posible...</p>
+    </footer>
+    
+</body>
+
+</html>
